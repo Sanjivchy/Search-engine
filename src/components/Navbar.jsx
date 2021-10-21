@@ -13,7 +13,9 @@ const Navbar = () => {
                   </div>
               </div>
               <div> 
-                  
+                  <a href="">asdas</a>
+                  <a href="">asdas</a>
+                  <i>profile</i>
               </div>
           </div>  
         </>
