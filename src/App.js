@@ -1,14 +1,13 @@
-import React , {useState} from 'react'
+import React  from 'react'
 import  Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Routes from './components/Routes';
 
 const App = () => {
 
-    const [darkThemes, setDarkTheme] = useState(true)
 
     return (
-        <div className={darkThemes ? 'dark' :''}>
+        <div>
             <div className="bg-gray-300 dark:bg-gray-900 dark:text-gray-200 min-h-screen">
                 <Navbar/>
                 <Routes/>
