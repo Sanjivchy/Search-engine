@@ -15,7 +15,7 @@ const { Results, isLoading , getResults, searchTerm } =useResultContext();
 
     return (
         <div>
-            result
+            hello this is result 
         </div>
     )
 }
